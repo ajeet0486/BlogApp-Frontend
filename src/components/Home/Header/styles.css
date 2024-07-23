@@ -1,0 +1,44 @@
+.home-header {
+  text-align: center;
+}
+h1{
+  margin: 6px;
+}
+.home-header h2 {
+  color: #0080ff;
+  font-size: 2rem;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  color: #0f52ba;
+  margin-bottom: 1rem;
+}
+
+.home-header h1 span {
+  color: #b0c4de;
+}
+
+.home-header p {
+  color: #a9a9a9;
+  font-weight: 500;
+}
+.home-header img {
+  width: 65px;
+  height: 65px;
+  border-radius: 33px;
+}
+.header2{
+  display: flex;
+}
+#header2-1{
+  width:30%
+}
+#header2-2{
+  width:40%
+}
+#header2-3{
+  width:30%
+}
+
+

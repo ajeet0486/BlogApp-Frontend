@@ -1,0 +1,23 @@
+.home-header2 img {
+    width: 65px;
+    height: 65px;
+    border-radius: 33px;
+   
+
+}
+.home-header2{
+    position:fixed;
+    background-color: azure;
+   
+}
+.home-header1{
+    justify-content: center;
+    display: flex;
+   
+    
+}
+.home{
+    background-color: azure;
+    width: 100px;
+    height: 10px;
+}
