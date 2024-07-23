@@ -10,7 +10,7 @@ const Home = () => {
   const [searchKey, setSearchKey] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3500/image')
+    fetch('https://blogapp-backend-y95k.onrender.com/image')
       .then(response => response.json())
       .then(data => setBlogs(data))
       .catch(error => {

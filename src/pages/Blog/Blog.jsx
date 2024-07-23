@@ -10,7 +10,7 @@ const Blog = () => {
   const [blog, setBlog] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3500/image')
+    fetch('https://blogapp-backend-y95k.onrender.com/image')
       .then(response => response.json())
       .then(data => {
         console.log('Fetched data:', data); // Debugging
@@ -49,7 +49,7 @@ const Blog = () => {
               ))}
             </div> */}
           </header>
-          <img src={`http://localhost:3500/image/${blog._id}`} alt='cover' />
+          <img src={`https://blogapp-backend-y95k.onrender.com/image/${blog._id}`} alt='cover' />
           <p className='blog-desc'>{blog.description}</p>
         </div>
       ) : (

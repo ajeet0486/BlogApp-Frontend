@@ -4,11 +4,10 @@ import Chip from '../../../common/Chip';
 import './BlogItem.css';
 
 const BlogItem = ({ blog }) => {
-  // console.log("blog.title "+blog.title)
   return (
     <div>
       <div className='blogItem-wrap'>
-        <img className='blogItem-cover' src={`http://localhost:3500/image/${blog._id}`} alt='cover' />
+        <img className='blogItem-cover' src={`https://blogapp-backend-y95k.onrender.com/image/${blog._id}`} alt='cover' />
         <Chip label={blog.category} />
         <h3>{blog.title}</h3>
         <p className='blogItem-desc'>{blog.description}</p>

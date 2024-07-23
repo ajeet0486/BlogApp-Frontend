@@ -27,7 +27,7 @@ const WriteBlog = () => {
     Object.keys(newBlog).forEach((key) => formData.append(key, newBlog[key]));
     if (image) formData.append('image', image);
 
-    fetch('http://localhost:3500/upload', {
+    fetch('https://blogapp-backend-y95k.onrender.com/upload', {
       method: 'POST',
       body: formData,
     })
