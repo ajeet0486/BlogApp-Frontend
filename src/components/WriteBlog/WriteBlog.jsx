@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IoIosAddCircleOutline } from 'react-icons/io';
+import { FcAddImage } from "react-icons/fc";
 import { Link } from 'react-router-dom';
 
 const WriteBlog = () => {
@@ -49,7 +49,7 @@ const WriteBlog = () => {
           <form onSubmit={handleSubmit}>
             <input type="file" id="file" onChange={handleImageChange} style={{ display: 'none' }} />
             <label htmlFor="file" style={{ cursor: 'pointer' }}>
-              <IoIosAddCircleOutline style={{ width: '25px', height: '25px' }} />
+              <FcAddImage style={{ width: '25px', height: '25px' }} />
             </label>
           </form>
         </div>
